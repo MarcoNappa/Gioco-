@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
     { testo: "DIO SERPENTE" },
     { testo: "DIO SOLFITO" },
     { testo: "SANDALI DI CRISTO" },
-    { testo: "MANNAGGIA LA BIBBIA"},
+    { testo: "MANNAGGIA LA BIBBIA" },
   ];
 
   let livelloCorrente = 0;
-  
-  const suono =document.getElementById("suono");
+
+  const suono = document.getElementById("suono");
 
   const contenitore = document.getElementById("contenitore");
 
@@ -38,10 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const fine = document.createElement("p");
       fine.textContent = "E PORCODDDDDIOOOOOOOOO BASTA MADONNA SCALZA , CAZZO TI BESTEMMI MERDA UMANA... DIO CANE MADONNA !!!!!"
       contenitore.appendChild(fine);
-      cambiaLivello.disabled = true;
+      cambiaLivello.style.display = "none";
     };
   });
 });
+
 
 
 
