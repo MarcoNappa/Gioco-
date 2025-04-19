@@ -1,0 +1,44 @@
+@media screen and (max-width : 800px) {
+    body {
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.vecteezy.com%2Farte-vettoriale%2F261357-croce-cristiana-del-cielo&psig=AOvVaw3h4KCmvQ9x5Uwi2PbeGjoi&ust=1745190218741000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCj0a-a5YwDFQAAAAAdAAAAABAJ);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNPxV8PXFm-oaTOarbgdRovgN-iZijuZECQ&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+p {
+    background-color: rgb(44, 42, 38);
+    max-height: max-content;
+    padding: 5px 5px 5px 5px;
+    color: rgb(211, 21, 21);
+    font-size: 30px;
+    border: 10px groove rgb(182, 48, 48);
+    border-radius: 45px;
+    text-align: center;
+    max-width: max-content;
+    justify-self: center;
+    margin: 15px;
+}
+
+#bottoneLV {
+    background-color: rgb(99, 99, 99);
+    max-height: max-content;
+    padding: 5px 5px 5px 5px;
+    max-width: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border: 10px groove rgb(182, 48, 48);
+    border-radius: 45px;
+    align-self: center;
+}
