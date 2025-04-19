@@ -8,6 +8,7 @@
 
 body {
     margin: auto;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNPxV8PXFm-oaTOarbgdRovgN-iZijuZECQ&s);
