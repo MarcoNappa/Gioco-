@@ -46,8 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       restart.addEventListener('click', function restartGame() {
         window.location.reload();
         document.getElementById("suonoFine").play();
-
-      })
+      });
     };
   });
 });
