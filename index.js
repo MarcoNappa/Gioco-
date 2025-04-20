@@ -39,10 +39,16 @@ document.addEventListener("DOMContentLoaded", function () {
       fine.textContent = "E PORCODDDDDIOOOOOOOOO BASTA MADONNA SCALZA , CAZZO TI BESTEMMI MERDA UMANA... DIO CANE MADONNA !!!!!"
       contenitore.appendChild(fine);
       cambiaLivello.style.display = "none";
+      const restart = document.createElement("button");
+      restart.classList.add("restart");
+      restart.textContent = "!!! REDIMITI !!!";
+      contenitore.appendChild(restart);
+      restart.addEventListener('click', function restartGame() {
+        window.location.reload();
+      })
     };
   });
 });
-
 
 
 

@@ -8,7 +8,6 @@
 
 body {
     margin: auto;
-    margin-top: 25px;
     display: flex;
     flex-direction: column;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNPxV8PXFm-oaTOarbgdRovgN-iZijuZECQ&s);
@@ -42,4 +41,19 @@ p {
     border: 10px groove rgb(182, 48, 48);
     border-radius: 45px;
     align-self: center;
+}
+
+.restart {
+    background-color: rgb(255, 255, 255);
+    max-height: max-content;
+    padding: 5px 5px 5px 5px;
+    color: rgb(0, 255, 242);
+    font-size: 60px;
+    border: 10px groove rgb(63, 145, 199);
+    border-radius: 45px;
+    text-align: center;
+    max-width: max-content;
+    justify-items: center;
+    align-items:center ;
+    margin: 15px;
 }
