@@ -44,8 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
       restart.textContent = "!!! REDIMITI !!!";
       contenitore.appendChild(restart);
       restart.addEventListener('click', function restartGame() {
-        window.location.reload();
         document.getElementById("suonoFine").play();
+        setTimeout(function () {
+          window.location.reload();
+        }, 9000);
       });
     };
   });
